@@ -1,0 +1,15 @@
+.form.form-control {
+    /* height: auto; */
+    border: none;
+    margin: 10px 0;
+    box-shadow: none;
+}
+
+.showForComplaint{
+	height: 0;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out;
+}
+.showForComplaint.active{
+	height: 230px;
+}

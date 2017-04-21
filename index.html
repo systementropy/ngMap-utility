@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	 
+	 <head>
+			<title>MyApp</title>
+			
+			<script src="https://use.fontawesome.com/b88dde9015.js"></script>
+			<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+			<link href="style/nokhaStyle.css" rel="stylesheet">
+			<link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+    		<link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
+			<link href="bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
+			<!-- <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+			<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+			<style type="text/css">
+				 body{background: #FEFEFE;}
+				 .container img{max-width:100%;}
+			</style>
+			<base href="/">
+	 </head>
+	 
+	 <body ng-app = "myApp">
+			<div ng-include="'views/header.html'"></div>
+			<div class="container">
+				<div ng-view class="mainContainer">
+
+				</div> 
+			</div>
+			
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDC01VpIXzU5IqJUAs7oqjtX4RsRoCc-s" type="text/javascript"></script>
+
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/angular/angular.min.js"></script>
+			<script src="bower_components/angular-route/angular-route.js"></script>
+			
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+			<!-- <script src="bower_components/slick-carousel/slick/slick.min.js"></script> -->
+			<!-- <script src="bower_components/angular-slick/dist/slick.min.js"></script> -->
+			<script src="/bower_components/slick-carousel/slick/slick.js"></script> 
+    		<script src="/bower_components/angular-slick-carousel/dist/angular-slick.min.js"></script> 
+			<!-- <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script> -->
+			<script src="/bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+			<script src="/bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+			<script type="text/javascript" src="script/app.js"></script>
+			
+	 </body>
+</html>  
