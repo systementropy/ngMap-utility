@@ -45,13 +45,8 @@ app.controller('directoryCtrl', function($scope,NgMap) {
        alert('Unable to get location: ' + error.message);
    }, $scope.options);
 
-
-
-
-
-
-
 });
+
 app.controller('addCtrl', function($scope,NgMap) {
 
    $scope.addMarker = function(){
@@ -81,6 +76,7 @@ app.controller('addCtrl', function($scope,NgMap) {
       
    }
 });
+
 app.controller('complaintCtrl', function($scope,NgMap,Upload) {
    $scope.testMarkers =[
       {lat:28.61401444785838, lng:77.19867860203863, label:"qwdeqwe"},
@@ -118,8 +114,6 @@ app.controller('complaintCtrl', function($scope,NgMap,Upload) {
 
       });
    }
-
-
 });
 
 
